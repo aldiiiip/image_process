@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 85%;
+  margin: 0 auto;
+  border-bottom: 2px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #34766c;
+  font-size: 250%;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 6px;
+  font-size: 16px;
+}
+.navbar a:hover {
+  color: #34766c;
+  font-weight: bold;  
+  transition: color 0.5s, font-weight 0.2s;
+}
+
+.content{
+  display: flex;
+  max-width: 85%;
+  margin: 0 auto;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.section{
+   width: 100%;
+   min-height: 600px;
+   align-items: center;
+ }
+
+.image-container {
+  min-height: 300px;
+  max-height: 300px;
+  border: 2px solid #848484;
+  padding: 5%;
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  background-color:#ccc;
+  border-radius: 5px;
+  margin: 20px;
+  overflow: hidden; 
+}
+
+#upload-container{
+  border: 3px dashed #848484; 
+  cursor: pointer;
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.upload-button {
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  color: #34766c;
+  border: 2px solid #848484;
+  padding: 10px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #34766c;
+  color: white;
+  font-weight: bold;  
+  transition: color 0.5s, font-weight 0.2s;  
+}
+
+
+h3{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.input-style {
+  /* Define your styles here */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  /* Add more styles as needed */
+}
+
+#inline{
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.texts{
+  text-align: left;  
+  margin-top: 100px;
+  margin-left:20px;
+  padding-bottom: 80px;
+}
+
+.image-gallery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 20px; */
+  /* padding-bottom: 10px; */
+}
+
+.image-folder {
+  border-radius: 15px;
+  max-width: 90%;
+  color: #62a192;
+  overflow: hidden; /* Ensures the content respects the border-radius */
+  background-color: #34766c; /* Optional: add a background color */
+  padding: 15px; /* Optional: add padding for spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better appearance */
+  margin-bottom: 20px; /* Space between folders */
+}
+
+.image-gallery-images{
+  min-height: 300px;
+  max-height: 500px;
+  border: 2px solid #848484;
+  /* padding: 5%; */
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  background-color:#ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;   
+  overflow: hidden; 
+}
